@@ -22,5 +22,77 @@
     "founded": 1978,
     "description": "Un recorrido natural para descubrir plantas autóctonas y aprender sobre conservación ambiental.",
     "tags": ["naturaleza", "educación", "relax"]
+  },
+  {
+    "id": 4,
+    "name": "Festival Internacional de Jazz",
+    "country": "Argentina",
+    "founded": 2001,
+    "description": "El festival más importante de jazz en América Latina, con artistas internacionales y locales en escenarios únicos.",
+    "tags": ["música", "jazz", "festival", "internacional"]
+  },
+  {
+    "id": 5,
+    "name": "Biblioteca Nacional Digital",
+    "country": "Chile",
+    "founded": 2010,
+    "description": "Acceso gratuito a miles de libros digitales, manuscritos históricos y recursos educativos en línea.",
+    "tags": ["literatura", "digital", "educación", "historia"]
+  },
+  {
+    "id": 6,
+    "name": "Centro de Artes Escénicas",
+    "country": "Perú",
+    "founded": 1985,
+    "description": "Espacio multidisciplinario para teatro, danza y performance, con programación anual diversa y accesible.",
+    "tags": ["teatro", "danza", "performance", "artes"]
+  },
+  {
+    "id": 7,
+    "name": "Museo de la Memoria",
+    "country": "Uruguay",
+    "founded": 2007,
+    "description": "Espacio dedicado a la preservación de la memoria histórica y los derechos humanos en la región.",
+    "tags": ["historia", "memoria", "derechos", "humanos"]
+  },
+  {
+    "id": 8,
+    "name": "Festival de Cine Independiente",
+    "country": "Brasil",
+    "founded": 1998,
+    "description": "Plataforma para cineastas emergentes, con proyecciones, talleres y networking internacional.",
+    "tags": ["cine", "independiente", "festival", "creatividad"]
+  },
+  {
+    "id": 9,
+    "name": "Centro Cultural Indígena",
+    "country": "Ecuador",
+    "founded": 2012,
+    "description": "Espacio dedicado a la preservación y promoción de las culturas indígenas, con exposiciones y talleres tradicionales.",
+    "tags": ["indígena", "cultura", "tradición", "artesanía"]
+  },
+  {
+    "id": 10,
+    "name": "Academia de Música Moderna",
+    "country": "Venezuela",
+    "founded": 2005,
+    "description": "Centro de formación musical con enfoque en géneros contemporáneos y tecnología musical avanzada.",
+    "tags": ["música", "educación", "moderna", "tecnología"]
+  },
+  {
+    "id": 11,
+    "name": "Galería de Arte Urbano",
+    "country": "Costa Rica",
+    "founded": 2015,
+    "description": "Espacio dedicado al street art y el arte urbano, con exposiciones temporales y murales interactivos.",
+    "tags": ["arte", "urbano", "street", "murales"]
+  },
+  {
+    "id": 12,
+    "name": "Festival de Literatura Fantástica",
+    "country": "Panamá",
+    "founded": 2018,
+    "description": "Encuentro anual de escritores y lectores de fantasía, ciencia ficción y literatura especulativa.",
+    "tags": ["literatura", "fantasía", "ciencia", "ficción"]
   }
 ]
