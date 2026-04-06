@@ -136,7 +136,7 @@ header p {
 .loading {
   padding: 3rem;
   border-radius: 24px;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 248, 220, 0.95);
   box-shadow: 0 25px 80px rgba(0, 0, 0, 0.15);
   text-align: center;
   font-size: 1.2rem;
@@ -145,7 +145,7 @@ header p {
   backdrop-filter: blur(20px);
   animation: fadeIn 0.5s ease-out, pulse 2s ease-in-out infinite;
   border: 2px solid transparent;
-  background-image: linear-gradient(white, white), linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+  background-image: linear-gradient(rgba(255, 248, 220, 0.95), rgba(255, 248, 220, 0.95)), linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -202,7 +202,7 @@ header p {
 .card {
   padding: 2.5rem;
   border-radius: 28px;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 248, 220, 0.95);
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
