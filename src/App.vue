@@ -67,10 +67,10 @@ onMounted(async () => {
 body {
   margin: 0;
   font-family: 'Poppins', 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #ff6b6b 0%, #4ecdc4 25%, #45b7d1 50%, #96ceb4 75%, #ffeaa7 100%);
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 25%, #0f3460 50%, #1a1a2e 75%, #533483 100%);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
-  color: #2d3436;
+  color: #e0e0e0;
   min-height: 100vh;
 }
 
@@ -89,9 +89,9 @@ body {
 header {
   text-align: center;
   margin-bottom: 3rem;
-  color: white;
+  color: #ffffff;
   animation: slideDown 0.8s ease-out;
-  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 @keyframes slideDown {
@@ -109,7 +109,7 @@ header h1 {
   margin: 0 0 0.8rem;
   font-size: clamp(2.5rem, 6vw, 3.8rem);
   font-weight: 800;
-  background: linear-gradient(45deg, #fff, #ffd700, #ff6b6b, #4ecdc4);
+  background: linear-gradient(45deg, #ffffff 0%, #a8e6cf 25%, #4ecdc4 50%, #45b7d1 75%, #96ceb4 100%);
   background-size: 300% 300%;
   animation: textGradient 3s ease infinite;
   -webkit-background-clip: text;
@@ -136,16 +136,16 @@ header p {
 .loading {
   padding: 3rem;
   border-radius: 24px;
-  background: rgba(255, 248, 220, 0.95);
-  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.15);
+  background: rgba(30, 30, 46, 0.95);
+  box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
   text-align: center;
   font-size: 1.2rem;
-  color: #ff6b6b;
+  color: #a8e6cf;
   font-weight: 600;
   backdrop-filter: blur(20px);
   animation: fadeIn 0.5s ease-out, pulse 2s ease-in-out infinite;
   border: 2px solid transparent;
-  background-image: linear-gradient(rgba(255, 248, 220, 0.95), rgba(255, 248, 220, 0.95)), linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96ceb4);
+  background-image: linear-gradient(rgba(30, 30, 46, 0.95), rgba(30, 30, 46, 0.95)), linear-gradient(45deg, #a8e6cf, #4ecdc4, #45b7d1, #96ceb4);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
@@ -169,7 +169,7 @@ header p {
 .error {
   padding: 2.5rem;
   border-radius: 24px;
-  background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);
+  background: linear-gradient(135deg, #ff6b6b 0%, #e17055 100%);
   box-shadow: 0 25px 80px rgba(255, 107, 107, 0.3);
   color: white;
   font-weight: 600;
@@ -202,14 +202,14 @@ header p {
 .card {
   padding: 2.5rem;
   border-radius: 28px;
-  background: rgba(255, 248, 220, 0.95);
-  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+  background: rgba(30, 30, 46, 0.95);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   position: relative;
   overflow: hidden;
   animation: cardEnter 0.8s ease-out;
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 @keyframes cardEnter {
@@ -245,8 +245,8 @@ header p {
 
 .card:hover {
   transform: translateY(-12px) scale(1.02);
-  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.2);
-  border-color: rgba(255, 107, 107, 0.3);
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.4);
+  border-color: rgba(78, 205, 196, 0.3);
 }
 
 .card:hover::before {
@@ -273,7 +273,7 @@ header p {
 
 .card p {
   margin: 0 0 1.8rem;
-  color: #636e72;
+  color: #b8c5d1;
   line-height: 1.8;
   font-size: 1rem;
   font-weight: 400;
@@ -285,26 +285,26 @@ header p {
   gap: 1.5rem;
   margin-bottom: 2rem;
   padding-bottom: 1.8rem;
-  border-bottom: 2px solid rgba(255, 107, 107, 0.1);
+  border-bottom: 2px solid rgba(168, 230, 207, 0.1);
 }
 
 .meta span {
   display: flex;
   align-items: center;
   font-size: 0.95rem;
-  color: #636e72;
+  color: #a8e6cf;
   font-weight: 600;
-  background: rgba(255, 107, 107, 0.1);
+  background: rgba(168, 230, 207, 0.1);
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  border: 1px solid rgba(255, 107, 107, 0.2);
+  border: 1px solid rgba(168, 230, 207, 0.2);
 }
 
 .meta span::before {
   content: '✨';
   margin-right: 0.8rem;
   font-size: 0.8rem;
-  color: #ff6b6b;
+  color: #a8e6cf;
 }
 
 .tags {
@@ -319,7 +319,7 @@ header p {
   background: linear-gradient(135deg, #4ecdc4, #45b7d1, #96ceb4);
   background-size: 200% 200%;
   animation: tagGlow 4s ease infinite;
-  color: white;
+  color: #1a1a2e;
   border-radius: 25px;
   font-size: 0.9rem;
   font-weight: 600;
