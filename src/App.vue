@@ -67,7 +67,7 @@ onMounted(async () => {
 body {
   margin: 0;
   font-family: 'Poppins', 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 25%, #0f3460 50%, #1a1a2e 75%, #533483 100%);
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 25%, #2a2a2a 50%, #1a1a1a 75%, #0a0a0a 100%);
   background-size: 400% 400%;
   animation: gradientShift 15s ease infinite;
   color: #e0e0e0;
