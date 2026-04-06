@@ -64,11 +64,6 @@ onMounted(async () => {
   box-sizing: border-box;
 }
 
-<style scoped>
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   font-family: 'Poppins', 'Segoe UI', sans-serif;
