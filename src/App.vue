@@ -81,7 +81,7 @@ body {
 header {
   text-align: center;
   margin-bottom: 3rem;
-  color: white;
+  color: black;
   animation: slideDown 0.8s ease-out;
 }
 
